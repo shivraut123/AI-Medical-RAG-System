@@ -1,0 +1,20 @@
+# Ignore the virtual environment
+venv/
+.venv/
+env/
+
+# Ignore Mac system files
+.DS_Store
+
+# Ignore the vector database (it is binary and large)
+vectorstore/
+
+# Ignore PDF files (Copyright & Size protection)
+data/*.pdf
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore secret keys
+.env
