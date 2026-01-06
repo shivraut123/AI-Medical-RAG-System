@@ -6,8 +6,22 @@ from langchain_community.vectorstores import FAISS
 from langchain.chains import RetrievalQA
 from langchain.prompts import PromptTemplate
 
-# --- PASTE YOUR API KEY HERE ---
-GOOGLE_API_KEY = "AIzaSyD2e1Mwxi3hdF7DwmmKyMRUz9s_LgACxvo"
+import os
+import streamlit as st
+from langchain_google_genai import ChatGoogleGenerativeAI
+# ... other imports ...
+from dotenv import load_dotenv  
+
+# Load environment variables
+load_dotenv()
+
+# Securely fetch the key
+GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
+
+if not GOOGLE_API_KEY:
+    st.error("API Key not found. Please set it in the .env file.")
+    st.stop()
+
 os.environ["GOOGLE_API_KEY"] = GOOGLE_API_KEY
 
 # Page Setup
