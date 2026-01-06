@@ -47,3 +47,5 @@ The system follows a standard RAG pipeline:
 ```bash
 git clone [https://github.com/shivraut123/AI-Medical-RAG-System.git](https://github.com/shivraut123/AI-Medical-RAG-System.git)
 cd AI-Medical-RAG-System
+## 📜 License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
