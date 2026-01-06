@@ -45,5 +45,5 @@ The system follows a standard RAG pipeline:
 
 **1. Clone the Repository**
 ```bash
-git clone [https://github.com/your-username/MediBot-Pro.git](https://github.com/your-username/MediBot-Pro.git)
-cd MediBot-Pro
+git clone [https://github.com/shivraut123/AI-Medical-RAG-System.git](https://github.com/shivraut123/AI-Medical-RAG-System.git)
+cd AI-Medical-RAG-System
