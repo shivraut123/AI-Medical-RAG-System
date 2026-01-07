@@ -15,7 +15,7 @@ It retrieves verified information exclusively from the *Gale Encyclopedia of Med
   <a href="https://youtu.be/S3bHxqmDTDs">
     <img src="https://img.youtube.com/vi/S3bHxqmDTDs/0.jpg" alt="MediBot Project Demo" style="width:100%; border-radius: 10px; box-shadow: 0px 4px 12px rgba(0,0,0,0.1);">
   </a>
-  <p><em>👆 Click the image above to verify the RAG System in action (60s)</em></p>
+  <p><em>👆 Click the image above to verify the RAG System in action</em></p>
 </div>
 
 ## 🚀 Key Features
