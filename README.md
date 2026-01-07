@@ -10,6 +10,14 @@
 
 It retrieves verified information exclusively from the *Gale Encyclopedia of Medicine* (PDF Dataset) before generating a response, ensuring that every answer is grounded in authoritative medical literature.
 
+<div align="center">
+  <h3>🎥 Watch the Project Demo</h3>
+  <a href="https://youtu.be/S3bHxqmDTDs">
+    <img src="https://img.youtube.com/vi/S3bHxqmDTDs/0.jpg" alt="MediBot Project Demo" style="width:100%; border-radius: 10px; box-shadow: 0px 4px 12px rgba(0,0,0,0.1);">
+  </a>
+  <p><em>👆 Click the image above to verify the RAG System in action (60s)</em></p>
+</div>
+
 ## 🚀 Key Features
 - **Retrieval-Augmented Generation (RAG):** eliminates AI hallucinations by grounding answers in a vector database.
 - **Multi-Mode Interaction:**
